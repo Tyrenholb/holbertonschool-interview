@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Creates pascals triangle in code"""
+
+
 def pascal_triangle(n):
+    """Returns the triangle in a list format using the var n"""
     triangle = []
 
     for count in range(n):
