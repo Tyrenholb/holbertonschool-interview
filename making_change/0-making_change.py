@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Using Dynamic programming approach this solves from the bottom up"""
+
 
 def makeChange(coins, total):
     dp = [total + 1] * (total + 1)
